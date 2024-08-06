@@ -1,2 +1,33 @@
+# Ignorar el directorio de dependencias de Composer
+/vendor/
+
+# Ignorar el archivo de bloqueos de Composer
+composer.lock
+
+# Ignorar el directorio de dependencias de npm
+/node_modules/
+
+# Ignorar el archivo de bloqueos de npm
+package-lock.json
+
+# Ignorar directorios y archivos específicos de entornos de desarrollo o IDEs
+/.idea/
+/.vscode/
+/nbproject/
+
+# Ignorar archivos de configuración del sistema operativo
 .DS_Store
-.idea
+Thumbs.db
+
+# Ignorar otros archivos de configuración locales o generados
+.env
+.env.local
+.env.*.local
+.env.testing
+.env.*.testing
+
+# Ignorar archivos de caché de composer (opcional)
+/composer.phar
+
+# Ignorar archivos de bases de datos locales (si se generan)
+*.sqlite
